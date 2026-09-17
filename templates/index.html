@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Log Home</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html"><img src="images/logo.png" alt="unit log logo"></a>
+        <nav>
+            <div id="menu-btn"></div>
+            <a class="hide-mobile" href="#">Dashboard</a>
+            <a class="hide-mobile" href="#">Properties</a>
+            <a class="hide-mobile" href="#">Tasks</a>
+            <a class="hide-mobile" href="#">About</a>
+        </nav>
+    </header>
+    <section>
+
+        <h1>UnitLog Dashboard</h1>
+
+        <select id="property-select" name="property">
+        <option value="" disabled selected>&#128269; Filter</option>
+        <option value="urgent">Urgent Tasks</option>
+        <option value="737">737 Hinsdale Dr.</option>
+        <option value="709">709 Langdale Dr.</option>
+        <option value="lodge">Lodge</option>
+        </select>
+
+        <div id="dashboard"></div>
+
+    </section>
+    <footer>
+        <p>&copy; 2026 UnitLog | Sam Geyser</p>
+    </footer>
+</body>
+</html>
